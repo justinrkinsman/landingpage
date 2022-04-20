@@ -55,13 +55,46 @@ button {
     height: 30px;
 }
 
+.info {
+    font-family: sans-serif;
+}
+
 .raninfo {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.imgpla {
+.imgpla1, .imgpla2, .imgpla3, .imgpla4 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.ip1, .ip2, .ip3, .ip4 {
+    border: 4px #3882F6 solid;
+    border-radius: 8px;
+    height: 100px;
+    width: auto;
+    align-self: flex-start;
+}
+
+.imgsec {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 0px;
+    padding: 100px;
+}
+
+.p1, .p2, .p3, .p4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
