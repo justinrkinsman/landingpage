@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .header {
@@ -97,4 +98,32 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.quotesec {
+    background-color: #E5E7EB;
+    width: 100%;
+    padding: 100px 0px 100px 17px;
+    margin: -8px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.quotebod{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.credit {
+    padding-right: 175px;
+    padding-left: 100px;
 }
